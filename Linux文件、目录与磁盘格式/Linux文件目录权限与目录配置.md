@@ -16,14 +16,14 @@ Linux将用户可以访问一个文件的身份分为了3种，也就是进一�
 当然在Linux世界种有一个大佬级别的存在的身份，就是root，它就像神一样，可以自由去到自己想去的地方，去访问它想访问的文件，真正的自由自在，随心所欲。
 
 ### 二、Linux文件权限概念
-知道了用户的是那种身份之后，就到了实际操作的部分了，介绍如何将这几种身份赋予我想要处理的文件上。
+知道了用户的是哪种身份之后，就到了实际操作的部分了，介绍如何将这几种身份赋予我想要处理的文件上。
 
 首先让我们先把用户切换到root账户，因为有很多的权限相关的指令是要使用root账户来操作的，如果你是第一次切换，root用户还没有设置过密码，所以你需要执行以下的操作：
 sudo -i
 sudo passwd root
 输入两次密码后，密码设置成功，然后可以执行sudo su，输入密码后切换到root账户。
 
-![Linux文件属性-1](https://github.com/xfmax/Linux/blob/master/Linux%E6%96%87%E4%BB%B6%E3%80%81%E7%9B%AE%E5%BD%95%E4%B8%8E%E7%A3%81%E7%9B%98%E6%A0%BC%E5%BC%8F/image/Linux%E6%96%87%E4%BB%B6%E5%B1%9E%E6%80%A7-1.png)
+![Linux文件属性-1](https://github.com/xfmax/Linux/blob/master/Linux文件、权限与磁盘格式/image/Linux文件属性-1.png)
 
 
 
