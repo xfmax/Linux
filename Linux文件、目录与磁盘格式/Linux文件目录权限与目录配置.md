@@ -23,7 +23,7 @@ sudo -i
 sudo passwd root
 输入两次密码后，密码设置成功，然后可以执行sudo su，输入密码后切换到root账户。
 
-![Linux文件属性-1](https://github.com/xfmax/Linux/blob/master/Linux文件、权限与磁盘格式/image/linux_file_1.png)
+![Linux文件属性-1](https://github.com/xfmax/Linux/blob/master/image/linux_file_1.png)
 
 
 
